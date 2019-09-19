@@ -13,8 +13,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *@author Cristian Perez
- * @author Julian Arias
+ *
+ * @author ASUS
  */
 public class CorredorTest {
     
@@ -36,21 +36,13 @@ public class CorredorTest {
     @After
     public void tearDown() {
     }
-    
+
     /**
      * Test of Correr method, of class Corredor.
      */
     @Test
     public void testCorrer() {
-       
-    }
-
-    /**
-     * Test of run method, of class Corredor.
-     */
-    @Test
-    public void testRun() {
-     System.out.println("Test Random");
+        System.out.println("Test Random");
         Corredor c = new Corredor();
         int result =c.Correr() ;
         switch (result) {
@@ -71,22 +63,6 @@ public class CorredorTest {
                 fail("numero fuera del rango de 1 a 3");
                 break;
         }
-    }
-
-    /**
-     * Test of notificarCompañero method, of class Corredor.
-     */
-    @Test
-    public void testNotificarCompañero() {
-        
-    }
-
-    /**
-     * Test of esperaCompañero method, of class Corredor.
-     */
-    @Test
-    public void testEsperaCompañero() {
-       
     }
     
 }

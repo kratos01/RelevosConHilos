@@ -88,12 +88,12 @@ public class Pista {
         limpiarPantalla();
         try {
             if("\u001B[31m".equals(color)){
-            Thread.sleep(801);
+            Thread.sleep(800);
             }
             else if ("\u001B[34m".equals(color)){
                 Thread.sleep(800);
             }else{
-            Thread.sleep(802);
+            Thread.sleep(800);
             }
         } catch (InterruptedException ex) {
             Logger.getLogger(Corredor.class.getName()).log(Level.SEVERE, null, ex);
